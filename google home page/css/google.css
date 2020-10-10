@@ -1,0 +1,169 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+header {
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+}
+#nav-bar {
+	float: right;
+}
+
+#nav-bar li{
+	display: inline-block;
+	padding: 8px;
+}
+
+#nav-bar #sign-in{
+	background: #ced5e0;
+	margin-right: 25px;
+	padding: 7px 15px;
+	border-radius: 3px;
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+li.nav-link a:hover{
+  text-decoration: underline;
+}
+#sign-in:hover{
+	box-shadow: 1px 1px 5px black;
+}
+#sign-in {
+	color: yellow;
+}
+.g #gl {
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	clear: both;
+	padding-top:40px;
+	padding-bottom: 20px; 
+}
+
+.f{
+	text-align: center;
+}
+
+#ts{
+	width: 450px;
+	line-height: 32px;
+	padding: 20px 10px;
+}
+.f #ts {
+	padding: 0 8px;
+}
+
+#ts:hover {
+	border-color: black;
+	padding-top: 0;
+}
+
+.button{
+	text-align: center;
+	
+	padding: 30px;
+	margin-bottom: 30px;
+	border-color: white;
+}
+#gsearch:hover{
+	border-color: #ced5e0;
+	border-top: 0;
+	box-shadow: 1px 1px 5px black;
+}
+#i-am:hover {
+	border-color: #ced5e0;
+	border-top: 0;
+	box-shadow: 1px 1px 5px black;
+}
+footer{
+	background: #ced5e0;
+	border-top: solid 2px #a1aec2;
+	position: fixed;
+	bottom: 0;
+	position-bottom:0;
+	width: 100%; 
+}
+/*footer .first ul li {
+	display: inline;
+	color: black;
+	font-size: 14px;
+	padding: 3px;
+}
+#nepal a:hover{
+	text-decoration: underline;
+}*/
+
+footer .second ul li{
+	text-align: center;
+	display: inline;
+	color:black;
+	font-size: 14px;
+	padding: 15px;
+}
+
+footer .second ul {
+	float: left;
+	padding: 1px;
+}
+#footer-left #adv a:hover {
+	text-decoration: underline;
+
+}
+#footer-left #bu a:hover {
+	text-decoration: underline;
+
+}
+#footer-left #about a:hover {
+	text-decoration: underline;
+
+}
+#footer-left #how a:hover {
+	text-decoration: underline;
+
+}
+#footer-right {
+	float: right;
+	
+}
+#footer-right #Privacy a:hover{
+	text-decoration: underline;
+}
+#footer-right #terms a:hover{
+	text-decoration: underline;
+} 
+#footer-right #setting a:hover{
+	text-decoration: underline;
+}
+
+.dropup{
+	position: absolute;
+	bottom: 100%;
+	right: 0%;
+	width: 10rem;
+	flex-wrap: wrap;
+	visibility: hidden;
+	transition: 0.3s;
+
+}
+#dropup-link a{
+	text-decoration: none;
+	display: flex;
+	background-color: #ced5e0;
+	color: black;
+	padding: 13px 13px;
+	align-items: center;
+	justify-content: space-between;
+}
+ul li:hover .dropup{
+	visibility: visible;
+}
